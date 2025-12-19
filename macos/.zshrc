@@ -13,3 +13,4 @@ fi
 [[ ! -f "${P10K_INSTANT_PROMPT}" ]] || source ${P10K_INSTANT_PROMPT}
 source "${P10K_CONFIG}"
 source "${P10K_PROMPT}"
+source "${ZSH_ALIASES}"
