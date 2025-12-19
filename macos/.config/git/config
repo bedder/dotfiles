@@ -1,0 +1,14 @@
+[url "git@github.com"]
+  insteadOf = "gh:"
+
+[status]
+  branch = true             # Always show the branch, even in short mode
+  showStash = true          # Show the number of stash entries
+  showUntrackedFiles = all  # Show all untracked files, not just directories
+
+[diff]
+  renames = copies          # Also detect copied files
+  interHunkContext = 10     # Adjust hunk size
+
+[interactive]
+  diffFilter = diff-so-fancy --patch  # When adding in patch mode, format diffs nicely
