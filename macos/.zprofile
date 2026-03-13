@@ -30,3 +30,5 @@ export PYTHON_HISTORY=$XDG_STATE_HOME/python_history
 
 # PATH modifications
 export PATH=${PATH}:${HOME}/.local/bin
+
+[[ ! -f "${HOME}/.zprofile-custom" ]] || source "${HOME}/.zprofile-custom"

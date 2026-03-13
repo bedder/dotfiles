@@ -14,4 +14,4 @@ fi
 source "${P10K_CONFIG}"
 source "${P10K_PROMPT}"
 source "${ZSH_ALIASES}"
-[[ ! -f "${ZSH_CUSTOM_ALIASES" ]] || source ${ZSH_CUSTOM_ALIASES}
+[[ ! -f "${ZSH_CUSTOM_ALIASES}" ]] || source ${ZSH_CUSTOM_ALIASES}
