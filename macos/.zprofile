@@ -13,6 +13,7 @@ export HISTFILE="$XDG_STATE_HOME/zsh/history"
 export SHELL_SESSION_DIR="$XDG_STATE_HOME/zsh/sessions"
 export SHELL_SESSION_FILE="$SHELL_SESSION_DIR/$TERM_SESSION_ID"
 export ZSH_ALIASES="${XDG_CONFIG_HOME}/aliases.zsh"
+export ZSH_CUSTOM_ALIASES="${XDG_CONFIG_HOME}/custom_aliases.zsh"
 
 # p10k locations
 export P10K_CONFIG="${XDG_CONFIG_HOME}/p10k/.p10k.zsh"
