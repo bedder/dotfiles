@@ -2,6 +2,7 @@
 alias ga="git add"
 alias gap="git add --patch"
 alias gc="git commit"
+alias gco="git checkout"
 alias gs="git status --short"
 alias gd="git diff --output-indicator-new=' ' --output-indicator-old=' ' --color=always | diff-so-fancy"
 
