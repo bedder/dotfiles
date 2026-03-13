@@ -9,7 +9,9 @@ else
 fi
 
 echo "Checking 🌻 zinit..."
-if [ -d "${ZINIT_GIT}" ]; then
+if [ -z "${ZINIT_GIT}" ]; then
+  echo "  └── ❌ ZINIT_GIT env var not set. Suggested value: '${HOME}/.local/share/zinit/'"
+elif [ -d "${ZINIT_GIT}" ]; then
   echo "  └── ✅ zinit already exists"
 else
   echo "  ├── 🌍 Cloning https://github.com/zdharma-continuum/zinit to ${ZINIT_GIT}"
