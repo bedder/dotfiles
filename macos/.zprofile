@@ -21,6 +21,7 @@ export P10K_PROMPT="${XDG_CONFIG_HOME}/p10k/prompt.zsh"
 export P10K_INSTANT_PROMPT="${XDG_CACHE_HOME}/p10k-instant-prompt-${(%):-%n}.zsh"
 
 # Misc
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
 export KUBECONFIG="$XDG_CONFIG_HOME/kube"
 export KUBECACHEDIR="$XDG_CACHE_HOME/kube"
 export MINIKUBE_HOME="$XDG_DATA_HOME"/minikube
@@ -29,6 +30,6 @@ export PYENV_ROOT=$XDG_DATA_HOME/pyenv
 export PYTHON_HISTORY=$XDG_STATE_HOME/python_history
 
 # PATH modifications
-export PATH=${PATH}:${HOME}/.local/bin
+export PATH=${PATH}:${HOME}/.local/bin:${CARGO_HOME}/bin
 
 [[ ! -f "${HOME}/.zprofile-custom" ]] || source "${HOME}/.zprofile-custom"
